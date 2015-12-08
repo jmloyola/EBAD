@@ -4,6 +4,8 @@ import scipy.stats.kde as kde
 
 def hdi_grid(trace, cred_mass=0.95, roundto=2):
     """Computes Highest Density Interval (HDI)"""
+    trace = np.asarray(trace)
+    trace = trace[~np.isnan(trace)]
     density = kde.gaussian_kde(trace)
     # get upper and lower bounds
     l = np.min(trace)

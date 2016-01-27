@@ -10,13 +10,13 @@ El material consiste en Jupyter notebooks y tiene un enfoque práctico. Confío 
 El repositorio cubre material sobre los siguientes tópicos:
 Las caritas indican si el material es más o menos usable :-),  un borrador :-| todavía no existe o mejor ni mirarlo :-( 
 
-* Introducción (rápida y general) al ecosistema Python.
+* [Introducción al ecosistema Python](https://github.com/aloctavodia/EBAD/tree/master/00_intro_python) (rápida y general) 
     * Python :-)
     * NumPy  :-|
     * Matplotlib/Seaborn :-(
     * Pandas :-(
 
-* Introducción a Estadística
+* [Introducción a Estadística](https://github.com/aloctavodia/EBAD/tree/master/01_estad%C3%ADstica)
     * Intro estadística :-)
     * Teorema de Bayes e introducción a la inferencia Bayesiana :-)
     * Programación probabilística usando PyMC3 :-)
@@ -30,12 +30,12 @@ Las caritas indican si el material es más o menos usable :-),  un borrador :-| 
     * BEST (t-test bayesiano) :-|
     * Métodos de remuestro (frecuentistas) :-(
     
-* Métodos numéricos comunes.
+* [Métodos numéricos comunes](https://github.com/aloctavodia/EBAD/tree/master/03_M%C3%A9todos_num%C3%A9ricos)
     * Introducción algebra lineal :-(
     * Minimización de funciones :-(
     * Markov Chain Monte Carlo (MCMC) :-(
 
-* Bioinformática estructural
+* [Bioinformática estructural](https://github.com/aloctavodia/EBAD/tree/master/04_Bioinform%C3%A1tica)
     * Modelado
         * PyMol :-(
         * Modeller :-(
@@ -47,7 +47,7 @@ Las caritas indican si el material es más o menos usable :-),  un borrador :-| 
         * Sequence_alignment_and_clustering :-(
         * Protein_and_RNA_structure_from_sequence :-(
 
-* Introducción a Machine Learning, (un poquito de algoritmos) y mucha práctica usando Scikit-learn :-(
+* [Introducción a Machine Learning](https://github.com/aloctavodia/EBAD/tree/master/02_Machine_learning) :-(
   
 ## Instalación
 Para usar este material es necesario tener instalado Python (se recomienda la versión 3.4 o superior, aunque es posible que corra con Python 2.7 con ligeras modificaciones). Además es necesario instalar los siguientes paquetes:

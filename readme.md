@@ -16,18 +16,17 @@ Las caritas indican si el material es más o menos usable :-),  un borrador :-| 
     * Matplotlib/Seaborn :-(
     * Pandas :-(
 
-* [Introducción a Estadística](https://github.com/aloctavodia/EBAD/tree/master/01_estad%C3%ADstica)
+* [Introducción a la estadística](https://github.com/aloctavodia/EBAD/tree/master/01_estad%C3%ADstica)
     * Intro estadística :-)
     * Teorema de Bayes e introducción a la inferencia Bayesiana :-)
     * Programación probabilística usando PyMC3 :-)
     * Modelos multiparamétricos y modelado jerárquico :-)
     * Regresión lineal simple :-)
-    * Regresión lineal multiple :-(
-    * "ANOVA" Bayesiano :-(
+    * Regresión lineal múltiple :-(
+    * BEST (t-test bayesiano) y "ANOVA" Bayesiano :-|
     * Regresión logística :-(
     * Modelos de mezcla :-(
     * Selección de modelos :-|
-    * BEST (t-test bayesiano) :-|
     * Métodos de remuestro (frecuentistas) :-(
     
 * [Métodos numéricos comunes](https://github.com/aloctavodia/EBAD/tree/master/03_M%C3%A9todos_num%C3%A9ricos)

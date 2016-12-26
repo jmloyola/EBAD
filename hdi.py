@@ -2,8 +2,8 @@ from __future__ import division
 import numpy as np
 import scipy.stats.kde as kde
 
-def hdi_grid(trace, cred_mass=0.95, roundto=2):
-    """Computes Highest Density Interval (HDI)"""
+def hpd_grid(trace, cred_mass=0.95, roundto=2):
+    """Computes Highest Density Interval (HPD)"""
     trace = np.asarray(trace)
     trace = trace[~np.isnan(trace)]
     density = kde.gaussian_kde(trace)
@@ -23,18 +23,18 @@ def hdi_grid(trace, cred_mass=0.95, roundto=2):
             break
     hdv.sort()
     diff = (u-l)/20  # differences of 5%
-    hdi = []
-    hdi.append(round(min(hdv), roundto))
+    hpd = []
+    hpd.append(round(min(hdv), roundto))
     for i in range(1, len(hdv)):
         if hdv[i]-hdv[i-1] >= diff:
-            hdi.append(round(hdv[i-1], roundto))
-            hdi.append(round(hdv[i], roundto))
-    hdi.append(round(max(hdv), roundto))
-    ite = iter(hdi)
-    hdi = list(zip(ite, ite))
+            hpd.append(round(hdv[i-1], roundto))
+            hpd.append(round(hdv[i], roundto))
+    hpd.append(round(max(hdv), roundto))
+    ite = iter(hpd)
+    hpd = list(zip(ite, ite))
     modes = []
-    for value in hdi:
-         x_hdi = x[(x > value[0]) & (x < value[1])]
-         y_hdi = y[(x > value[0]) & (x < value[1])]
-         modes.append(round(x_hdi[np.argmax(y_hdi)], roundto))
-    return hdi, x, y, modes
+    for value in hpd:
+         x_hpd = x[(x > value[0]) & (x < value[1])]
+         y_hpd = y[(x > value[0]) & (x < value[1])]
+         modes.append(round(x_hpd[np.argmax(y_hpd)], roundto))
+    return hpd, x, y, modes

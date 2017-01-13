@@ -4,8 +4,10 @@ Este repositorio contiene una introducción a la estadística Bayesiana usando P
 
 ## Temas
 
-* Intro estadística
+* Introducción a estadística
+    Breve rápida introducción a algunos de los conceptos centrales en estadística, tipos de variables, análisis exploratorio de datos, distribuciones de probabilidad, correlación, etc.
 * Teorema de Bayes e introducción a la inferencia Bayesiana
+    
 * Programación probabilística usando PyMC3
 * Modelos multiparamétricos y modelado jerárquico
 * Regresión lineal simple
@@ -18,16 +20,17 @@ Este repositorio contiene una introducción a la estadística Bayesiana usando P
 
   
 ## Instalación
-Para usar este material es necesario tener instalado Python (se recomienda la versión 3.4 o superior, aunque es posible que corra con Python 2.7 con ligeras modificaciones). Además es necesario instalar los siguientes paquetes:
+Para usar este material es necesario tener instalado Python (se recomienda la versión 3.5 o superior, aunque es posible que corra con Python 2.7 con ligeras modificaciones). Además es necesario instalar los siguientes paquetes:
 
-Las _notebooks_ fueron creadas en una computadora x86_64 corriendo Ubuntu 15.10 y usando las siguientes librerías de Python:
+Las _notebooks_ fueron creadas en una computadora x86_64 corriendo Ubuntu 16.10 y usando las siguientes librerías de Python:
 
-* Jupyter 4.0.1
+* Jupyter 5.0
 * PyMC3 3.0
-* NumPy 1.10.4
-* SciPy 0.16.1
-* Matplotlib 1.5.1
-* Seaborn 0.7.0
+* NumPy 1.11.2
+* SciPy 0.18.1
+* Matplotlib 1.5.3
+* Seaborn 0.7.1
+
 
 Para los usuarios de Windows/Mac Os X se recomienda instalar Python y todas las librerías requeridas vía [Anaconda](https://www.continuum.io/downloads). Para los usuarios de Linux se recomienda Anaconda o pip, ya que los gestores de paquetes suelen tener versiones algo viejas de estas librerías.
 

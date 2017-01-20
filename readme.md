@@ -4,20 +4,20 @@
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/an%C3%A1lisis_bayesiano_de_datos/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
-Este repositorio contiene una introducción a la estadística Bayesiana usando Python. Este material es **trabajo en progreso** pero es en general usable (sobre todo los 3 primeros capítulos).
+Este repositorio contiene una introducción a la estadística Bayesiana usando Python. Este material es **trabajo en progreso** pero es en general usable (sobre todo los 4 primeros capítulos).
 
 ## Temas
 
-* Introducción a estadística
-* Teorema de Bayes e introducción a la inferencia Bayesiana
-* Programación probabilística usando PyMC3
-* Modelos multiparamétricos y modelado jerárquico
-* Regresión lineal simple (bajo revisión)
-* Regresión lineal múltiple (bajo revisión)
-* BEST (t-test bayesiano) y "ANOVA" Bayesiano (bajo revisión)
-* Regresión logística (ToDo)
-* Modelos de mezcla (ToDo)
-* Selección de modelos (bajo revisión)
+* Introducción a estadística :-)
+* Teorema de Bayes e introducción a la inferencia Bayesiana :-)
+* Programación probabilística usando PyMC3 :-)
+* Modelos multiparamétricos y modelado jerárquico :-)
+* Regresión lineal simple :-|
+* Regresión lineal múltiple :-|
+* BEST (t-test bayesiano) y "ANOVA" Bayesiano :-|
+* Regresión logística :-(
+* Modelos de mezcla :-(
+* Selección de modelos :-|
 
   
 ## Instalación

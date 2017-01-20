@@ -4,23 +4,20 @@
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/an%C3%A1lisis_bayesiano_de_datos/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
-Este repositorio contiene una introducción a la estadística Bayesiana usando Python. Este material es **trabajo en progreso** pero es en general usable.
+Este repositorio contiene una introducción a la estadística Bayesiana usando Python. Este material es **trabajo en progreso** pero es en general usable (sobre todo los 3 primeros capítulos).
 
 ## Temas
 
 * Introducción a estadística
-    Breve rápida introducción a algunos de los conceptos centrales en estadística, tipos de variables, análisis exploratorio de datos, distribuciones de probabilidad, correlación, etc.
 * Teorema de Bayes e introducción a la inferencia Bayesiana
-    
 * Programación probabilística usando PyMC3
 * Modelos multiparamétricos y modelado jerárquico
-* Regresión lineal simple
-* Regresión lineal múltiple
-* BEST (t-test bayesiano) y "ANOVA" Bayesiano
-* Regresión logística (TODO)
-* Modelos de mezcla (TODO)
-* Selección de modelos
-* Métodos de remuestro (frecuentistas) (TODO)
+* Regresión lineal simple (bajo revisión)
+* Regresión lineal múltiple (bajo revisión)
+* BEST (t-test bayesiano) y "ANOVA" Bayesiano (bajo revisión)
+* Regresión logística (ToDo)
+* Modelos de mezcla (ToDo)
+* Selección de modelos (bajo revisión)
 
   
 ## Instalación
@@ -32,15 +29,15 @@ Las _notebooks_ fueron creadas en una computadora x86_64 corriendo Ubuntu 16.10 
 * PyMC3 3.0
 * NumPy 1.11.2
 * SciPy 0.18.1
-* Matplotlib 1.5.3
+* Matplotlib 2.0
 * Seaborn 0.7.1
 
 
-Para los usuarios de Windows/Mac Os X se recomienda instalar Python y todas las librerías requeridas vía [Anaconda](https://www.continuum.io/downloads). Para los usuarios de Linux se recomienda Anaconda o pip, ya que los gestores de paquetes suelen tener versiones algo viejas de estas librerías.
+Se recomienda instalar Python y todas las librerías requeridas vía [Anaconda](https://www.continuum.io/downloads).
 
 
 ## Contribuciones
-Todo el contenido de este repositorio es abierto, esto quiere decir que cualquier persona interesada puede contribuir a el. Todas las contribuciones serán bien recibidas incluyendo
+Todo el contenido de este repositorio es abierto, esto quiere decir que cualquier persona interesada puede contribuir a el. Todas las contribuciones serán bien recibidas incluyendo:
 
 * Correcciones ortográficas
 * Nuevas figuras
@@ -49,4 +46,4 @@ Todo el contenido de este repositorio es abierto, esto quiere decir que cualquie
 * Mejores explicaciones 
 * Correcciones de errores conceptuales
 
-La forma de contribuir es vía la interfaz de Github, es decir los cambios deberán ser hechos en forma de _pull requests_ y los problemas/bugs deberán reportarse como _Issues_. Cualquier duda también podés [chatear](https://gitter.im/an%C3%A1lisis_bayesiano_de_datos/Lobby) con nosotros.
+La forma de contribuir es vía Github, es decir los cambios deberán ser hechos en forma de _pull requests_ y los problemas/bugs deberán reportarse como _Issues_. Cualquier duda también podés [chatear](https://gitter.im/an%C3%A1lisis_bayesiano_de_datos/Lobby) con nosotros.

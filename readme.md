@@ -4,20 +4,26 @@
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/an%C3%A1lisis_bayesiano_de_datos/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
-Este repositorio contiene una introducción a la estadística Bayesiana usando Python. Este material es **trabajo en progreso** pero es en general usable (sobre todo los 4 primeros capítulos).
+Este repositorio contiene una introducción a la estadística Bayesiana usando Python. Este material es **trabajo en progreso** pero es en general usable.
 
 ## Temas
 
-* Introducción a estadística :-)
-* Teorema de Bayes e introducción a la inferencia Bayesiana :-)
-* Programación probabilística usando PyMC3 :-)
-* Modelos multiparamétricos y modelado jerárquico :-)
-* Regresión lineal simple :-|
-* Regresión lineal múltiple :-|
-* BEST (t-test bayesiano) y "ANOVA" Bayesiano :-|
-* Regresión logística :-(
-* Modelos de mezcla :-(
-* Selección de modelos :-|
+Los siguientes capítulos ya están disponibles:
+
+* Introducción a estadística
+* Teorema de Bayes e introducción a la inferencia Bayesiana
+* Programación probabilística usando PyMC3
+* Modelos multiparamétricos y modelado jerárquico
+* Regresión lineal simple
+
+Los siguientes capítulos todavía no están disponibles:
+
+* Regresión lineal múltiple
+* BEST (t-test bayesiano) y "ANOVA" Bayesiano
+* Regresión logística
+* Modelos de mezcla
+* Selección de modelos
+* Procesos Gaussianos
 
   
 ## Instalación
@@ -25,11 +31,12 @@ Para usar este material es necesario tener instalado Python (se recomienda la ve
 
 Las _notebooks_ fueron creadas en una computadora x86_64 corriendo Ubuntu 16.10 y usando las siguientes librerías de Python:
 
-* Jupyter 5.0
+
+* Jupyter 5.3.0
 * PyMC3 3.0
-* NumPy 1.11.2
-* SciPy 0.18.1
-* Matplotlib 2.0
+* NumPy 1.12.1
+* SciPy 0.19.0
+* Matplotlib 2.0.2
 * Seaborn 0.7.1
 
 

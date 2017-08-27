@@ -1,7 +1,4 @@
-# Estadística Bayesiana y análisis de datos
-
-
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/an%C3%A1lisis_bayesiano_de_datos/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Análisis Bayesiano de datos
 
 
 Este repositorio contiene una introducción a la estadística Bayesiana usando Python. Este material es **trabajo en progreso** pero es en general usable.

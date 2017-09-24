@@ -32,8 +32,6 @@ Para usar este material es necesario tener instalado Python (se recomienda la ve
 * Matplotlib 2.0.2
 * Ipython 6.1.0
 * Jupyter 1.0.0
-* seaborn 0.8
-
 
 Se recomienda instalar Python y todas las librerías requeridas vía [Anaconda](https://www.continuum.io/downloads).
 

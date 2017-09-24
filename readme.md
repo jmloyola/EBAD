@@ -24,17 +24,14 @@ Los siguientes capítulos todavía no están disponibles:
 
   
 ## Instalación
-Para usar este material es necesario tener instalado Python (se recomienda la versión 3.5 o superior, aunque es posible que corra con Python 2.7 con ligeras modificaciones). Además es necesario instalar los siguientes paquetes:
+Para usar este material es necesario tener instalado Python (se recomienda la versión 3.6 o superior, aunque es posible que corra con versiones anteriores Python incluso 2.7 con ligeras modificaciones). Además es necesario instalar los siguientes paquetes:
 
-Las _notebooks_ fueron creadas en una computadora x86_64 corriendo Ubuntu 16.10 y usando las siguientes librerías de Python:
-
-
-* Jupyter 5.3.0
-* PyMC3 3.0
-* NumPy 1.12.1
-* SciPy 0.19.0
+* PyMC3 3.1
+* NumPy 1.13.1
+* SciPy 0.19.1
 * Matplotlib 2.0.2
-* Seaborn 0.7.1
+* Ipython 6.1.0
+* Jupyter 1.0.0
 
 
 Se recomienda instalar Python y todas las librerías requeridas vía [Anaconda](https://www.continuum.io/downloads).

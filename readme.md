@@ -11,11 +11,10 @@ Los siguientes capítulos ya están disponibles:
 * Teorema de Bayes e introducción a la inferencia Bayesiana
 * Programación probabilística usando PyMC3
 * Modelos multiparamétricos y modelado jerárquico
-* Regresión lineal simple
+* Regresión lineal simple y multiple
 
 Los siguientes capítulos todavía no están disponibles:
 
-* Regresión lineal múltiple
 * BEST (t-test bayesiano) y "ANOVA" Bayesiano
 * Regresión logística
 * Modelos de mezcla

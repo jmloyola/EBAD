@@ -4,23 +4,6 @@
 
 Este repositorio contiene una introducción a la estadística Bayesiana usando Python. Este material es **trabajo en progreso** pero es en general usable.
 
-## Temas
-
-Los siguientes capítulos ya están disponibles:
-
-* Teorema de Bayes e introducción a la inferencia Bayesiana
-* Programación probabilística usando PyMC3
-* Modelos multiparamétricos y modelado jerárquico
-* Regresión lineal simple y multiple
-* Comparación de modelos
-
-Los siguientes capítulos todavía no están disponibles:
-
-* BEST (t-test bayesiano) y "ANOVA" Bayesiano
-* Regresión logística
-* Modelos de mezcla
-* Procesos Gaussianos
-
 
 ## Como usar este material
 
@@ -32,19 +15,22 @@ Los siguientes capítulos todavía no están disponibles:
 
 
 ## Instalación
-Para usar este material es necesario tener instalado Python (se recomienda la versión 3.6 o superior, aunque es posible que corra con versiones anteriores Python incluso 2.7 con ligeras modificaciones). Además es necesario instalar los siguientes paquetes:
+Para usar este material es necesario tener instalado Python. Se recomienda la versión 3.5 o superior. Además es necesario instalar los siguientes paquetes:
 
-* PyMC3 3.3
-* NumPy 1.14.2
-* SciPy 1.0.1
+* PyMC3 3.5
+* NumPy 1.15
+* SciPy 1.1
 * Matplotlib 2.2.2
-* Ipython 6.2.1
+* Ipython 6.5
 * Jupyter 1.0.0
-* seaborn 0.8.1
+* seaborn 0.9
+* ArviZ 0.1
 
+Se recomienda instalar primero [Anaconda](https://www.continuum.io/downloads). Luego instalar el resto de los paquetes con los comandos:
 
+* `conda install -c conda-forge pymc3 jupyter ipython`
 
-Se recomienda instalar Python y todas las librerías requeridas vía [Anaconda](https://www.continuum.io/downloads).
+* `pip install git+git://github.com/arviz-devs/arviz.git`
 
 
 ## Contribuciones
@@ -57,7 +43,7 @@ Todo el contenido de este repositorio es abierto, esto quiere decir que cualquie
 * Mejores explicaciones 
 * Correcciones de errores conceptuales
 
-La forma de contribuir es vía Github, es decir los cambios deberán ser hechos en forma de _pull requests_ y los problemas/bugs deberán reportarse como _Issues_. Cualquier duda también podés [chatear](https://gitter.im/an%C3%A1lisis_bayesiano_de_datos/Lobby) con nosotros.
+La forma de contribuir es vía Github, es decir los cambios deberán ser hechos en forma de _pull requests_ y los problemas/bugs deberán reportarse como _Issues_.
 
 
 ## Para seguir leyendo
@@ -76,6 +62,3 @@ La forma de contribuir es vía Github, es decir los cambios deberán ser hechos 
 
 
 * Las plantillas utilizadas para generar los diagramas de Kruschke, fueron creadas por [Rasmus Bååth's](http://sumsar.net/blog/2013/10/diy-kruschke-style-diagrams/)
-
-
-

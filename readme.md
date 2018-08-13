@@ -11,7 +11,7 @@ Este repositorio contiene una introducción a la estadística Bayesiana usando P
 
 * Versión interactiva online. Al hacer click [acá](https://mybinder.org/v2/gh/PrACiDa/EBAD/master) podrás correr una versión _online_.
 
-* Versión interactiva local. También es posible descargar el material y ejecutarlo en tu propia computadora. Para ello has click [acá](https://github.com/PrACiDa/intro_ciencia_de_datos/archive/master.zip) y sigue las intrucciones de la proxima sección (Instalación).
+* Versión interactiva local. También es posible descargar el material y ejecutarlo en tu propia computadora. Para ello has click [acá](https://github.com/PrACiDa/EBAD/archive/master.zip) y sigue las intrucciones de la proxima sección (Instalación).
 
 
 ## Instalación
@@ -34,7 +34,7 @@ Se recomienda instalar primero [Anaconda](https://www.continuum.io/downloads). L
 
 
 ## Contribuciones
-Todo el contenido de este repositorio es abierto, esto quiere decir que cualquier persona interesada puede contribuir a el. Todas las contribuciones serán bien recibidas incluyendo:
+Todo el contenido de este repositorio es abierto, esto quiere decir que cualquier persona interesada puede contribuir al mismo. Todas las contribuciones serán bien recibidas incluyendo:
 
 * Correcciones ortográficas
 * Nuevas figuras

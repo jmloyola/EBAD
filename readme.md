@@ -15,7 +15,7 @@ Este repositorio contiene una introducción a la estadística Bayesiana usando P
 
 
 ## Instalación
-Para usar este material es necesario tener instalado Python. Se recomienda la versión 3.5 o superior. Además es necesario instalar los siguientes paquetes:
+Para usar este material es necesario tener instalado Python. Se recomienda la versión 3.6 o superior. Además es necesario instalar los siguientes paquetes:
 
 * PyMC3 3.5
 * NumPy 1.15
@@ -28,7 +28,7 @@ Para usar este material es necesario tener instalado Python. Se recomienda la ve
 
 Se recomienda instalar primero [Anaconda](https://www.continuum.io/downloads). Luego instalar el resto de los paquetes con los comandos:
 
-* `conda install -c conda-forge pymc3 jupyter ipython`
+* `conda install -c conda-forge pymc3 jupyter ipython seaborn`
 
 * `pip install git+git://github.com/arviz-devs/arviz.git`
 

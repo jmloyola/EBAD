@@ -5,13 +5,13 @@
 Este repositorio contiene una introducción a la estadística Bayesiana usando Python. Este material es **trabajo en progreso** pero es en general usable.
 
 
-## Como usar este material
+## Cómo usar este material
 
-* Versión estática: Al hacer click en los archivos que se muestran arriba (los que empiezan con 01_, 02_, 03_, etc) podrás leer una versión estática del material. Es decir prodrás ver el texto y las figuras pero no podrás modificarlos, ni intercatuar con el material.
+* Versión estática: Al hacer click en los archivos que se muestran arriba (los que empiezan con 01_, 02_, 03_, etc) podrás leer una versión estática del material. Es decir podrás ver el texto y las figuras pero no podrás modificarlos, ni interactuar con el material.
 
 * Versión interactiva online. Al hacer click [acá](https://mybinder.org/v2/gh/PrACiDa/EBAD/master) podrás correr una versión _online_.
 
-* Versión interactiva local. También es posible descargar el material y ejecutarlo en tu propia computadora. Para ello has click [acá](https://github.com/PrACiDa/EBAD/archive/master.zip) y sigue las intrucciones de la proxima sección (Instalación).
+* Versión interactiva local. También es posible descargar el material y ejecutarlo en tu propia computadora. Para ello has click [acá](https://github.com/PrACiDa/EBAD/archive/master.zip) y sigue las instrucciones de la próxima sección (Instalación).
 
 
 ## Instalación

@@ -10,6 +10,5 @@ dependencies:
   - seaborn=0.9
   - numpy=1.15
   - scipy=1.1
-  - mkl-service
   - pip:
     - git+git://github.com/arviz-devs/arviz.git

@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# https://github.com/PrACiDa/EBAD/issues/9
-export MKL_THREADING_LAYER=GNU
